@@ -1,0 +1,50 @@
+{
+  "name": "electron-app-boilerplate",
+  "version": "0.0.1",
+  "description": "Latest electron react redux and material-ui starter kit",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "webpack --config webpack.config.js",
+    "package": "webpack --config webpack.config.js",
+    "postpackage": "electron-packager ./ --out=./builds"
+  },
+  "author": "Alex Martynov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akil-io/electron-app-boilerplate.git"
+  },
+  "homepage": "https://github.com/akil-io/electron-app-boilerplate",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "clean-webpack-plugin": "^0.1.17",
+    "connected-react-router": "^4.3.0",
+    "css-loader": "^0.28.8",
+    "electron": "^1.7.10",
+    "electron-devtools-installer": "^2.2.3",
+    "electron-packager": "^10.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "material-ui": "^0.20.0"
+  }
+}
